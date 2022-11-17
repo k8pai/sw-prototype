@@ -1,0 +1,10 @@
+[
+	{"id":1, "productName": "Air Jordan 1 Off-White UNC", "description": "product descrition whatever...", "imageUrl": "/../products/1.png"},
+	{"id":2, "productName": "Air Jordan 4 Infrared", "description": "product descrition whatever...", "imageUrl": "/../products/2.png"},
+	{"id":3, "productName": "Travis Scott Mocha", "description": "product descrition whatever...", "imageUrl": "/../products/3.png"},
+	{"id":4, "productName": "Air Jordan Low New Emerald", "description": "product descrition whatever...", "imageUrl": "/../products/4.png"},
+	{"id":5, "productName": "Air Jordan 4 Lightning", "description": "product descrition whatever...", "imageUrl": "/../products/5.png"},
+	{"id":6, "productName": "Nike Dunk High Ambush Deep Royal Blue", "description": "product descrition whatever...", "imageUrl": "/../products/6.png"},
+	{"id":7, "productName": "Nike Dunk High Ambush Deep Royal Blue", "description": "product descrition whatever...", "imageUrl": "/../products/7.png"},
+	{"id":8, "productName": "Nike Dunk High Ambush Deep Royal Blue", "description": "product descrition whatever...", "imageUrl": "/../products/8.png"}
+]
