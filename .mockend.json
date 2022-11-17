@@ -1,122 +1,14 @@
 {
-  {
-    "id": "1",
-    "name": "Juan Dela Cruz",
-    "description": "FIBERX 1500",
-    "ref": "Ref#.3086755",
-    "status": "Pending",
-    "image": "../../assets/images/user-icon.png"
+  "Post": {
+    "title": { "string": {} },
+    "comments": {
+      "hasMany": "Comment"
+    }
   },
-  {
-    "id": "2",
-    "name": "Herminia Pitong-gatang",
-    "description": "FIBERX 2500",
-    "ref": "Ref#.3086756",
-    "status": "Returned",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "3",
-    "name": "Saludencia Wasiwas",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "4",
-    "name": "Saludencia Wasiwas2",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "5",
-    "name": "Saludencia Wasiwas3",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "6",
-    "name": "Saludencia Wasiwas4",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "7",
-    "name": "Saludencia Wasiwas5",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "8",
-    "name": "Saludencia Wasiwas6",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "9",
-    "name": "Saludencia Wasiwas7",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "10",
-    "name": "Saludencia Wasiwas8",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "11",
-    "name": "Saludencia Wasiwas9",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "12",
-    "name": "Saludencia Wasiwas10",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "13",
-    "name": "Saludencia Wasiwas11",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "14",
-    "name": "Saludencia Wasiwas11",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
-  },
-  {
-    "id": "15",
-    "name": "Saludencia Wasiwas11",
-    "description": "FIBERX 4500",
-    "ref": "Ref#.3086757",
-    "status": "Activated",
-    "image": "../../assets/images/user-icon.png"
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }
