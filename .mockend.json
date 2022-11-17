@@ -1,4 +1,4 @@
-[
+{
   {
     "id": "1",
     "name": "Juan Dela Cruz",
@@ -119,4 +119,4 @@
     "status": "Activated",
     "image": "../../assets/images/user-icon.png"
   }
-]
+}
